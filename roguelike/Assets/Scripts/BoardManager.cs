@@ -1,60 +1,60 @@
 ﻿using UnityEngine;
 using System;
-using System.Collections.Generic; 		//Allows us to use Lists.
-using Random = UnityEngine.Random; 		//Tells Random to use the Unity Engine random number generator.
+using System.Collections.Generic;
+using System.Collections;
+using Random = UnityEngine.Random;
 
-namespace Completed
-	
-{
-	
-	public class BoardManager : MonoBehaviour
-	{
-		// Using Serializable allows us to embed a class with sub properties in the inspector.
-		[Serializable]
-		public class Count
-		{
-			 private int minimum; 			//Minimum value for our Count class.
-		    private int maximum; 			//Maximum value for our Count class.
+public class BoardManager : MonoBehaviour {
 
-			
-			//Assignment constructor.
-			public Count (int min, int max)
-			{
-				minimum = min;
-				maximum = max;
-			}
+    [Serializable]
+    public class Count
+    {
+        public int minimum;
+        public int maximum;
 
-		    public int Minimum
-		    {
-		        get { return minimum; }
-		        set { minimum = value; }
-		    }
+        public Count(int min, int max)
+        {
+            minimum = min;
+            maximum = max;
+        }
+        public int Minimum
+        {
+            get { return minimum; }
+            set { minimum = value; }
+        }
 
-		    public int Maximum
-		    {
-		        get { return maximum; }
-		        set { maximum = value; }
-		    }
-		}
-		
-		
-		public int columns = 8; 										//Number of columns in our game board.
-		public int rows = 8;											//Number of rows in our game board.
-		public Count wallCount = new Count (5, 9);						//Lower and upper limit for our random number of walls per level.
-		public Count foodCount = new Count (1, 5);						//Lower and upper limit for our random number of food items per level.
-		public GameObject exit;											//Prefab to spawn for exit.
-		public GameObject[] floorTiles;									//Array of floor prefabs.
-		public GameObject[] wallTiles;									//Array of wall prefabs.
-		public GameObject[] foodTiles;									//Array of food prefabs.
-		public GameObject[] enemyTiles;									//Array of enemy prefabs.
-		public GameObject[] outerWallTiles;								//Array of outer tile prefabs.
-		
-		private Transform boardHolder;									//A variable to store a reference to the transform of our Board object.
-		private List <Vector3> gridPositions = new List <Vector3> ();	//A list of possible locations to place tiles.
-		
-		
-		//Clears our list gridPositions and prepares it to generate a new board.
-		void InitialiseList ()
+        public int Maximum
+        {
+            get { return maximum; }
+            set { maximum = value; }
+        }
+    }
+
+    
+    //game board size.
+    public int columns = 8;
+    public int rows = 8;
+    //initializes walls
+    public Count wallCount =  new Count(5, 9);
+    public Count foodCount = new Count(1, 5);
+
+    //going to fill these arrays with the prefabs 
+    public GameObject exit;
+    public GameObject[] floorTiles;
+    public GameObject[] wallTiles;
+    public GameObject[] foodTiles;
+    public GameObject[] enemyTiles;
+    public GameObject[] outerWallTiles;
+
+    //allow us to collapse game objects in the hierarchy.
+    private Transform boardHolder;
+    private List<Vector3> gridPositions = new List<Vector3>();
+
+
+    /// <summary>
+    /// creating list of possible positions to add awlls enemies or pickups.
+    /// </summary>
+   		void InitialiseList ()
 		{
 			//Clear our list gridPositions.
 			gridPositions.Clear ();
@@ -165,4 +165,5 @@ namespace Completed
 			Instantiate (exit, new Vector3 (columns - 1, rows - 1, 0f), Quaternion.identity);
 		}
 	}
-}
+
+
