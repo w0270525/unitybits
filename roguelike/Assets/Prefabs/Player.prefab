@@ -12,6 +12,7 @@ GameObject:
   - 95: {fileID: 9531204}
   - 61: {fileID: 6140704}
   - 50: {fileID: 5084842}
+  - 114: {fileID: 11433582}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -76,6 +77,33 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11433582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afcff4dc318af734c93c63f37d3c454c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveTime: .100000001
+  blockingLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  foodText: {fileID: 0}
+  wallDamage: 1
+  pointsPerFood: 10
+  pointsPerSoda: 20
+  restartLevelDelay: 1
+  moveSound1: {fileID: 0}
+  moveSound2: {fileID: 0}
+  eatSound1: {fileID: 0}
+  eatSound2: {fileID: 0}
+  drinkSound1: {fileID: 0}
+  drinkSound2: {fileID: 0}
+  gameOverSound: {fileID: 0}
 --- !u!212 &21229434
 SpriteRenderer:
   m_ObjectHideFlags: 1
