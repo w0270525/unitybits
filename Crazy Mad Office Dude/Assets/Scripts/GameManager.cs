@@ -1,15 +1,9 @@
-﻿//GameManager
-//Singleton and persistent object to manage game state
-//For high level control over game
-//--------------------------------------------------------------
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 //Game Manager requires other manager components
 [RequireComponent(typeof(NotificationManager))] //Component for sending and receiving notifications
-//--------------------------------------------------------------
 public class GameManager : MonoBehaviour
 {
-    //--------------------------------------------------------------
     //public properties
     //C# property to retrieve currently active instance of object, if any
     public static GameManager Instance
@@ -31,6 +25,21 @@ public class GameManager : MonoBehaviour
         }
     }
     //--------------------------------------------------------------
+    //C# property to retrieve and set input allowed status
+    public bool InputAllowed
+    {
+        get { return bInputAllowed; }
+
+        set
+        {
+            //Set Input
+            bInputAllowed = value;
+
+            //Post notification about input status changed
+            Notifications.PostNotification(this, "InputChanged");
+        }
+    }
+    //--------------------------------------------------------------
     //Private variables
     //--------------------------------------------------------------
     //Internal reference to single active instance of object - for singleton behaviour
@@ -39,7 +48,8 @@ public class GameManager : MonoBehaviour
     //Internal reference to notifications object
     private static NotificationManager notifications = null;
 
-    //public variables
+    //Can game accept user input?
+    private bool bInputAllowed = true;
     //--------------------------------------------------------------
     // Called before Start on object creation
     void Awake()

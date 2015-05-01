@@ -7,10 +7,10 @@ public class PingPongDistance : MonoBehaviour
     public Vector3 MoveDir = Vector3.zero;
 
     //Speed to move - units per second
-    public float speed = 0.0f;
+    public float speed = 0.3f;
 
     //Distance to travel in world units (before inverting direction and turning back)
-    public float travelDistance = 0.0f;
+    public float travelDistance = 0.5f;
 
     //Cached Transform
     private Transform thisTransform = null;
