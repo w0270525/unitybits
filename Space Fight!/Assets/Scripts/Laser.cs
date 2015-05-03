@@ -4,14 +4,19 @@ using System.Collections;
 public class Laser : MonoBehaviour
 {
     private LineRenderer line;
-
+    public float flicker = 0.1f;
+    private CursorLockMode wantedMode=CursorLockMode.Confined;
 
     void Start()
     {
         line = gameObject.GetComponent<LineRenderer>();
         line.enabled = false;
 
-        Screen.lockCursor = true;
+        //locks the cursor 
+        Cursor.lockState = wantedMode;
+
+        // Hide cursor when locking
+        Cursor.visible = (CursorLockMode.Locked != wantedMode);
     }
 
     void Update()
@@ -59,6 +64,9 @@ public class Laser : MonoBehaviour
 
                 line.SetPosition(1, ray.GetPoint(100));
             }
+
+
+
 
 
             yield return null;

@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Laser.cs" />
     <Compile Include="Assets\Scripts\Laser2.cs" />
+    <Compile Include="Assets\Scripts\SpaceMovement.cs" />
     <Compile Include="Assets\omega_fighter_01\script\MouseLook.cs" />
   </ItemGroup>
   <ItemGroup>
