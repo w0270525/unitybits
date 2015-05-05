@@ -93,6 +93,7 @@
     <Compile Include="Assets\Imports\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Imports\Standard Assets\Utility\WaypointProgressTracker.cs" />
     <Compile Include="Assets\Imports\omega_fighter_01\script\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\HoverMotor.cs" />
     <Compile Include="Assets\Scripts\Laser.cs" />
     <Compile Include="Assets\Scripts\Laser2.cs" />
     <Compile Include="Assets\Scripts\SpaceMovement.cs" />

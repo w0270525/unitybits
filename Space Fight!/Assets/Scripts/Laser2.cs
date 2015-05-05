@@ -1,8 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine;
-using System.Collections;
-
 public class Laser2 : MonoBehaviour
 {
 

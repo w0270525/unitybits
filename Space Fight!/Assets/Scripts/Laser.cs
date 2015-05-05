@@ -39,6 +39,7 @@ public class Laser : MonoBehaviour
             //autocorrected as the example is deprecated. was line.renderer.material....
             line.GetComponent<Renderer>().material.mainTextureOffset = new Vector2(0, Time.time);
             //The position
+            
             Ray ray = new Ray(transform.position, transform.forward);
             RaycastHit hit;
 
@@ -54,7 +55,10 @@ public class Laser : MonoBehaviour
                     //allows for 
                     hit.rigidbody.AddForceAtPosition(transform.forward * 5, hit.point);
 
-
+                    if (hit.transform.gameObject.tag == "Enemy")
+                    {
+                        hit.transform.SendMessage("ApplyDamage", 100, SendMessageOptions.DontRequireReceiver);
+                    }
                     //laser shader/line render try particles/verticallit blended
                 }
             }
