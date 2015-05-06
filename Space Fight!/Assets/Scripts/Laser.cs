@@ -33,6 +33,7 @@ public class Laser : MonoBehaviour
     //co-routine 
     IEnumerator FireLaser()
     {
+        float timestamp = Time.time + flicker;
         line.enabled = true;
         while (Input.GetButton("Fire1"))
         {
@@ -70,6 +71,11 @@ public class Laser : MonoBehaviour
             }
 
 
+            if (Time.time >= timestamp)
+            {
+                line.enabled = !line.enabled;
+                timestamp = Time.time + flicker;
+            }
 
 
 

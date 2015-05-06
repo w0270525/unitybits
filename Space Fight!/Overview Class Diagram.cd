@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MouseLook" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAEACAAAAAAAAGAAAAAAIAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Imports\omega_fighter_01\script\MouseLook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForcedReset" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\ForcedReset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HoverMotor" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACUQAAAAAgAAAAAAAAAAAABIAEAAAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\HoverMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laser" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAACAAAAAAAEAAABAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Laser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laser2" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAACAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Laser2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boundary" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAACAAAAAAAgAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SpaceMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceMovement" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\SpaceMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.AxisTouchButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgAAAAAAAIAQAAAJAAAQAAAAAAAAIIABAAAAAACAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.ButtonHandler" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAABAACAAAACQAAAAAAAAAAAIAAAAACAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mAICAgAAgBKAAwAAAAAAAAAAAAIBAAgAFIAAAABASAQ=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.Joystick" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IECAAAAAAAEIAAAAAABAAAAAAAAAIACIAAQAEAAAaAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.MobileControlRig" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAABAAACAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.TiltInput" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQACAAAAAEAAAAAAQAAAgAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.TouchPad" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IGSABAAAAAgIAAAAAAAAAAAEAAAAIBSIABQAEACAaAI=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.VirtualInput" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAACAAAAgBKAAwAAAAAABAAAAEIAAAgIEIABAABCSAQ=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.PlatformSpecific.MobileInput" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAABCAAwAAAAAAAAAAAAAAAAgAAIAAAIAiSAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.PlatformSpecific.StandaloneInput" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAACAAAAABCAAwAAAAAAAAAAAAAAAAgAAIAAAAACSAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.CrossPlatformInput.Inspector.TiltInputAxisStylePropertyDrawer" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.ActivateTrigger" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAgIAIAAAAAAgAAAAAAAARAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\ActivateTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.AutoMobileShaderSwitch" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\AutoMobileShaderSwitch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.AutoMoveAndRotate" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAiAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\AutoMoveAndRotate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.CameraRefocus" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAACACAAIAAAAAAQAAAAAAABAAAAAgACAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\CameraRefocus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.CurveControlledBob" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACAAAAAAAAASAwAAAAABASAAAABAABAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\CurveControlledBob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.DragRigidbody" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACQAACAAAAAAAAAAIAAgAgAAAAAAAAiAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\DragRigidbody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.DynamicShadowSettings" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQQAAFAACAAAEAAAAAACAAAIAAAAAgBAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\DynamicShadowSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.FollowTarget" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\FollowTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.FOVKick" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACQAAACAAAAAAAAAACAAABAIBAAgAAAAgAAAAEAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\FOVKick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.FPSCounter" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAgBAAAAgAAAAAAAEQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\FPSCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.LerpControlledBob" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAABIgAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\LerpControlledBob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.ObjectResetter" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAABAAAAAAAAAAAAACAAAAAABAACCA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\ObjectResetter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.ParticleSystemDestroyer" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAAAAAAAAAAAAAAAQAIAIAQAAAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\ParticleSystemDestroyer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.PlatformSpecificContent" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAgAAQAAAAAAAAAAAAAAAAAAYBACAAAAACAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\PlatformSpecificContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.SimpleActivatorMenu" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAEQAAAAIAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\SimpleActivatorMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.SimpleMouseRotator" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAYACAAAAAQAAgAAAAACACAAAIAgABgAAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\SimpleMouseRotator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.SmoothFollow" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAUAIAAAIAAAAEIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\SmoothFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.TimedObjectActivator" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAABAAAAgAIAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\TimedObjectActivator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.TimedObjectDestructor" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\TimedObjectDestructor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.WaypointCircuit" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAEAAqAAIIAAAEAABAAAwBAAEGAQAhAoAAAQAAAAEA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\WaypointCircuit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.WaypointProgressTracker" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEgAAAACEABAAAIAQAAAEABAAIAQAIAAwAAAAAICo=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\WaypointProgressTracker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.Inspector.ReplacementListDrawer" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\AutoMobileShaderSwitch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.Inspector.EntriesDrawer" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\TimedObjectActivator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.Utility.Inspector.WaypointListDrawer" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAAAAAAEA=</HashCode>
+      <FileName>Assets\Imports\Standard Assets\Utility\WaypointCircuit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
