@@ -23,6 +23,12 @@ public class SpaceMovement : MonoBehaviour
     // Use this for initialization
     void Awake()
     {
+
+        var camerabounds = GetComponentInParent<Camera>();
+        boundary.xMin = camerabounds.xMin;
+        boundary.xMax = camerabounds.xMax;
+        boundary.zMax = camerabounds.yMax;
+        boundary.zMin = camerabounds.yMin;
         //ship = GetComponent<Rigidbody>();
     }
 
@@ -43,12 +49,17 @@ public class SpaceMovement : MonoBehaviour
 
         //transform.RotateAround(transform.position, Vector3.up, hor * rotate);
 
+
         GetComponent<Rigidbody>().position = new Vector3
         (
             Mathf.Clamp(transform.position.x, boundary.xMin, boundary.xMax),
             0.0f,
             Mathf.Clamp(transform.position.z, boundary.zMin, boundary.zMax)
         );
+
+
+
+
 
     }
 }
