@@ -24,12 +24,7 @@ public class SpaceMovement : MonoBehaviour
     void Awake()
     {
 
-        var camerabounds = GetComponentInParent<Camera>();
-        boundary.xMin = camerabounds.xMin;
-        boundary.xMax = camerabounds.xMax;
-        boundary.zMax = camerabounds.yMax;
-        boundary.zMin = camerabounds.yMin;
-        //ship = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame

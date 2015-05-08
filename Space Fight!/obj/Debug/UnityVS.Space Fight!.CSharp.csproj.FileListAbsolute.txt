@@ -11,3 +11,4 @@ C:\Users\Jonathan\Documents\Roguelike\unitybits\Space Fight!\Temp\UnityVS_bin\De
 C:\Users\Jonathan\Documents\Roguelike\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
 C:\Users\Jonathan\Documents\Roguelike\unitybits\Space Fight!\obj\Debug\Assembly-CSharp.dll
 C:\Users\Jonathan\Documents\Roguelike\unitybits\Space Fight!\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Jonathan\Documents\Roguelike\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
