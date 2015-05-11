@@ -52,11 +52,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71634a7cefa1a7541830892cadb1597a, type: 3}
+  m_Script: {fileID: 11500000, guid: 27e1f9ad0996e074e85e7bcd81b7604d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HealthAmount: 10
-  Clip: {fileID: 8300000, guid: c01d0f2dbcc94af4e98d47c74a4c564c, type: 3}
+  cashAmount: 100
+  clip: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -65,9 +65,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4659fa0b96371654482c1986bc5b7f01, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c150b27c5af04246b16b53c57d4ccda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MoveDir: {x: 0, y: 1, z: 0}
+  speed: .300000012
+  travelDistance: .5
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -76,12 +79,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95dc7fdea780b8e429b4b571aed113cd, type: 3}
+  m_Script: {fileID: 11500000, guid: ccffb0df562272d4f8e7d70361d1845a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveDir: {x: 0, y: 1, z: 0}
-  Speed: .300000012
-  TravelDistance: .5
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

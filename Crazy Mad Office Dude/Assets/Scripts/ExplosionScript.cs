@@ -19,18 +19,20 @@ public class ExplosionScript : MonoBehaviour
 
 	void Update(){
 		
-		if ((Input.GetMouseButtonDown))
+		if ((Input.GetButtonDown("Left")))
 		{
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 	RaycastHit hit;
 	
 	//allows for clicking to set the spin and direction based on click position.
-	if(Physics.Raycast(ray, out hit, 100))
-		//the 'hit.point' is where the force is coming from, effecting anything in the radius.
-		rigidbody.AddExplosion(force, hit.point, 5, 0, ForceMode.Impulse);
-	
-		//the zero in the last line can be changed to '1' to pop the item up in the air by default. 
-	
+		    if (Physics.Raycast(ray, out hit, 100))
+		    {
+		        //the 'hit.point' is where the force is coming from, effecting anything in the radius.
+		        //GetComponent<Rigidbody>().AddExplosion(force, hit.point, 5, 0, ForceMode.Impulse);
+
+		        //the zero in the last line can be changed to '1' to pop the item up in the air by default. 
+
+		    }
 		}
 	
 	}

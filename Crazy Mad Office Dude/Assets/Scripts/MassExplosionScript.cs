@@ -19,7 +19,7 @@ public class MassExplosionScript : MonoBehaviour
                 
                 foreach (Collider c in colliders)
                 {
-                    if(c.rigidbody==null) continue;
+                    if(c.GetComponent<Rigidbody>()==null) continue;
                     
                     //example psuedo code to make a box blow up into small parts.
                     if(c.gameObject.name=="box"){
@@ -28,7 +28,7 @@ public class MassExplosionScript : MonoBehaviour
                         //explode pieces!
                     }
                     
-                    c.rigidbody.AddExplosionForce(force, hit.point, radius, 1, ForceMode.Impulse);
+                    c.GetComponent<Rigidbody>().AddExplosionForce(force, hit.point, radius, 1, ForceMode.Impulse);
                 }
 
             }
