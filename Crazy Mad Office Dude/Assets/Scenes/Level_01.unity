@@ -757,6 +757,10 @@ Prefab:
       propertyPath: m_TagString
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9d4133d5d30b644bd87802a347eaccbe, type: 2}
   m_IsPrefabParent: 0
@@ -1002,6 +1006,19 @@ MonoBehaviour:
   Strength: .150000006
   BobAmount: 10
   HeadY: 1.20000005
+--- !u!114 &377221845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 377221839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b9dd7f011b52d499268e9c2d5f3c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CashTotal: 1400
+  cash: 0
 --- !u!1001 &385751859
 Prefab:
   m_ObjectHideFlags: 0
@@ -2281,6 +2298,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 211238446}
   m_RootOrder: 10
+--- !u!1 &1215998859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1215998860}
+  - 95: {fileID: 1215998861}
+  m_Layer: 0
+  m_Name: Animated Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1215998860
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1215998859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 127718618}
+  m_RootOrder: 2
+--- !u!95 &1215998861
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1215998859}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 04343c9155cb2bb49ab545e7243a9960, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &1278607088 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 72ab9eaf3fad5d345baad5f4aacf67d7, type: 2}
@@ -3514,7 +3576,7 @@ AudioSource:
   Mute: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.04771221
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

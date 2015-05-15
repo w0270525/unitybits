@@ -42,17 +42,14 @@ public class Powerup_Dollar : MonoBehaviour
         gameObject.SetActive(false);
 
         //get the playercontroller and update the cash.
-        //PlayerController pc = other.gameObject.GetComponent<PlayerController>();
+        PlayerController pc = other.gameObject.GetComponent<PlayerController>();
 
         //if there is a player character attached to the colliding object, update cash.
-        //if (pc) pc.Cash += cashAmount;
+        if (pc) pc.Cash += cashAmount;
 
         //Post poserup collected notification so other objects can handle this event if necessary.
         GameManager.Notifications.PostNotification(this, "PowerupCollected");
     }
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }
