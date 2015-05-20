@@ -64,6 +64,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Imports\SpaceShip02\omega_fighter_01\script\MouseLook.cs" />
     <Compile Include="Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Imports\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
@@ -97,8 +98,8 @@
     <Compile Include="Assets\Imports\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\Imports\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Imports\Standard Assets\Utility\WaypointProgressTracker.cs" />
-    <Compile Include="Assets\Imports\omega_fighter_01\script\MouseLook.cs" />
     <Compile Include="Assets\Scripts\BulletFire.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager.cs" />
     <Compile Include="Assets\Scripts\EnvironmentDetails.cs" />
     <Compile Include="Assets\Scripts\HoverMotor.cs" />
     <Compile Include="Assets\Scripts\Laser.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="Assets\Scripts\MovementSound.cs" />
     <Compile Include="Assets\Scripts\NewObjectPoolerScript.cs" />
     <Compile Include="Assets\Scripts\ObjectPooling.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\SimpleFSM.cs" />
     <Compile Include="Assets\Scripts\SpaceMovement.cs" />
   </ItemGroup>
