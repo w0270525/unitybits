@@ -97,7 +97,7 @@ public class SimpleFSM : MonoBehaviour
         //check range to decide the random point
         if (IsInCurretnRange(destPos))
         {
-            rndPosition = new Vector3(Random.Range(-rndRadius, rndRadius), 0.0f, Random.Range(-rndRadius, rndRadius));
+            rndPosition = new Vector3(Random.Range(-rndRadius, rndRadius), -0.2f, Random.Range(-rndRadius, rndRadius));
             destPos = PointList[rndIndex].transform.position + rndPosition;
 
         }
@@ -193,7 +193,7 @@ public class SimpleFSM : MonoBehaviour
             currentState = FSMState.Attack;
         }
         //transition to patrol if the player is too far away. 
-        else if (dist >= 300.0f)
+        else if (dist >= 5.0f)
         {
             currentState = FSMState.Patrol;
 
@@ -264,6 +264,10 @@ public class SimpleFSM : MonoBehaviour
 
 
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * currentRotationSpeed);
+
+
+        //Go forward
+        transform.Translate(Vector3.forward * Time.deltaTime * currentSpeed);
 
     }
 
