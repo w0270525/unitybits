@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AdManager">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAABAAAAAAAAAgAAAAgAAEA=</HashCode>
+      <FileName>Assets\Scripts\AdManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletFire">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAgAAAAAAAAAAAAAAEAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\BulletFire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyManager">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAAAEAAAAAAAACAAAAAAAAAAAEAAI=</HashCode>
+      <FileName>Assets\Scripts\EnemyManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnvironmentDetails">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\EnvironmentDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAgAAAAAAAAAAAAAAAAAAgAAAAAQAIA=</HashCode>
+      <FileName>Assets\Scripts\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HoverMotor">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACUQAAAAAgAAAAAAAAAAAABIAEAAAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\HoverMotor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laser">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAACAAAAAAAEAAABAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Laser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Laser2">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAACAAAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Laser2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MovementSound">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAggACAAAAAIAAAAAQAAAAABAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\MovementSound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NewObjectPoolerScript">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAAAAAAAAAgAAAAgAQIAAAAAAAAAAAAAEI=</HashCode>
+      <FileName>Assets\Scripts\NewObjectPoolerScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectPooling">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgKAQAAAAAAAAAAAAAAAEAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ObjectPooling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleFSM">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SimpleFSM.FSMState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\SimpleFSM.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAQCAAAAyAAAAIAJCAAAAgAAIAYABQIAAAQAIEUAAA=</HashCode>
+      <FileName>Assets\Scripts\SimpleFSM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boundary">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAACAAAAAAAgAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SpaceMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceMovement">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAgAAAAAAAAAQAAAAAAAAAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\SpaceMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
