@@ -6,6 +6,7 @@ public class Laser : MonoBehaviour
     private LineRenderer line;
     public float flicker = 0.1f;
     private CursorLockMode wantedMode=CursorLockMode.Confined;
+    public int damage=50;
 
     void Start()
     {
@@ -59,6 +60,9 @@ public class Laser : MonoBehaviour
                     if (hit.transform.gameObject.tag == "Enemy")
                     {
                         hit.transform.SendMessage("ApplyDamage", 100, SendMessageOptions.DontRequireReceiver);
+
+
+
                     }
                     //laser shader/line render try particles/verticallit blended
                 }

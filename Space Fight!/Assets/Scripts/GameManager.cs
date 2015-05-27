@@ -11,25 +11,25 @@ public class GameManager : MonoBehaviour
 
 
 
-	// Use this for initialization
-	void Start ()
-	{
-	    SpawnPoints = GameObject.FindGameObjectsWithTag("EnemySpawn");
+    // Use this for initialization
+    void Start ()
+    {
+        SpawnPoints = GameObject.FindGameObjectsWithTag("EnemySpawn");
 
-	    StartCoroutine(SpawnWaves());
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+        StartCoroutine(SpawnWaves());
+    }
+    
+    // Update is called once per frame
+    void Update () {
+    
+    }
 
     IEnumerator SpawnWaves()
     {
         yield return new WaitForSeconds(startWait);
         while (true)
         {
-            
+            int rndIndex = Random.Range(0, SpawnPoints.Length);
         }
     }
 

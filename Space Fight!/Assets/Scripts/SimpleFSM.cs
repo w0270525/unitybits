@@ -277,7 +277,7 @@ public class SimpleFSM : MonoBehaviour
         //reduce health
         if (collision.gameObject.tag == "Bullet" || collision.gameObject.tag == "Laser")
         {
-            Health -= collision.gameObject.GetComponent<BulletFire>().damage;
+            Health -= collision.gameObject.GetComponent<Laser>().damage;
         }
     }
 }
