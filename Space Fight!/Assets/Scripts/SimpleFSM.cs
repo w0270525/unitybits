@@ -27,6 +27,8 @@ public class SimpleFSM : MonoBehaviour
     //bullet/laser
     public GameObject Bullet;
 
+    public int scoreValue;
+
     private bool isAlive = true;
 
     public int Health;
@@ -279,5 +281,11 @@ public class SimpleFSM : MonoBehaviour
         {
             Health -= collision.gameObject.GetComponent<Laser>().damage;
         }
+    }
+
+    void ApplyDamage(object value)
+    {
+        var val = (int) value;
+        Health -= val;
     }
 }

@@ -62,7 +62,6 @@ public class Laser : MonoBehaviour
                         hit.transform.SendMessage("ApplyDamage", 100, SendMessageOptions.DontRequireReceiver);
 
 
-
                     }
                     //laser shader/line render try particles/verticallit blended
                 }
