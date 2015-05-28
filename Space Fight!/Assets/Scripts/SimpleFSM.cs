@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class SimpleFSM : MonoBehaviour
 {
@@ -37,6 +38,8 @@ public class SimpleFSM : MonoBehaviour
     protected Transform playerTransform;
     protected float elapsedTime;
     protected Vector3 destPos;
+    protected GameObject objPlayer;
+    public Object Explosion;
 
     //Turret if applicable.
     public Transform turret { get; set; }
@@ -59,8 +62,8 @@ public class SimpleFSM : MonoBehaviour
         FindNextPoint();
 
         //find the player
-        GameObject objPlayer = GameObject.FindGameObjectWithTag("Player");
-
+      
+        objPlayer = GameObject.FindGameObjectWithTag("Player");
 
 
         playerTransform = objPlayer.transform;
@@ -164,16 +167,14 @@ public class SimpleFSM : MonoBehaviour
     /// </summary>
     private void Explode()
     {
-        //TODO change to use object pooling.
-        float rndX = Random.Range(10.0f, 30.0f);
-        float rndZ = Random.Range(10.0f, 30.0f);
-        for (int i = 0; i < 3; i++)
-        {
-            GetComponent<Rigidbody>().AddExplosionForce(10000.0f, transform.position - new Vector3(rndX, 10.0f, rndZ), 40.0f, 10.0f);
-            GetComponent<Rigidbody>().velocity = transform.TransformDirection(new Vector3(rndX, 20.0f, rndZ));
-        }
-        Destroy(gameObject, 1.5f);
+        objPlayer.SendMessage("UpdateScore", scoreValue);
+
+
+        Instantiate(Explosion, transform.position, transform.rotation);
+        Destroy(gameObject, 0.1f);
     }
+
+    
 
     private void UpdateAttackState()
     {
