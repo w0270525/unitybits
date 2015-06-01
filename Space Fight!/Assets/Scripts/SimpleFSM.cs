@@ -50,7 +50,7 @@ public class SimpleFSM : MonoBehaviour
     {
         currentState = FSMState.Patrol;
 
-        Health = 100;
+       
 
         elapsedTime = 0.0f;
 
@@ -62,11 +62,19 @@ public class SimpleFSM : MonoBehaviour
         FindNextPoint();
 
         //find the player
-      
-        objPlayer = GameObject.FindGameObjectWithTag("Player");
+
+        try
+        {
+            objPlayer = GameObject.FindGameObjectWithTag("Player");
 
 
-        playerTransform = objPlayer.transform;
+            playerTransform = objPlayer.transform;
+        }
+        catch (System.Exception)
+        {
+
+            print("player missing.");
+        }
 
         if (!playerTransform)
             print("Player doesn't exist.. Please add one " +
@@ -176,7 +184,7 @@ public class SimpleFSM : MonoBehaviour
 
     
 
-    private void UpdateAttackState()
+    public virtual void UpdateAttackState()
     {
         //Set the target postion to the player position
         destPos = playerTransform.position;
@@ -216,13 +224,13 @@ public class SimpleFSM : MonoBehaviour
 
     }
 
-    private void ShootBullet()
+    public void ShootBullet()
     {
-        Instantiate(Bullet, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+        //Instantiate(Bullet, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
         elapsedTime = 0.0f;
     }
 
-    private void UpdateChaseState()
+    public virtual void UpdateChaseState()
     {
         //Set the target position as the player position
         destPos = playerTransform.position;
@@ -246,7 +254,7 @@ public class SimpleFSM : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * currentSpeed);
     }
 
-    private void UpdatePatrolState()
+    public virtual void UpdatePatrolState()
     {
         float dist = Vector3.Distance(transform.position, playerTransform.position);
         //Find another random patrol point from the list if point is reached
@@ -274,13 +282,15 @@ public class SimpleFSM : MonoBehaviour
 
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
         //may need some re jiggering to get this to work correctly with player lasers, possible damage multiplier.
         //reduce health
-        if (collision.gameObject.tag == "Bullet" || collision.gameObject.tag == "Laser")
+        if (other.tag == "Player")
+
         {
-            Health -= collision.gameObject.GetComponent<Laser>().damage;
+            Health = 0;
+            objPlayer.SendMessage("ApplyDamage", 20);
         }
     }
 

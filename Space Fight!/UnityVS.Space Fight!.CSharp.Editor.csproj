@@ -120,6 +120,7 @@
     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Imports\Dark Future\ReadMe.txt" />
     <None Include="Assets\Imports\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Plugins\Android\unityads\AndroidManifest.xml" />
     <None Include="Assets\Plugins\Android\unityads\build.xml" />
