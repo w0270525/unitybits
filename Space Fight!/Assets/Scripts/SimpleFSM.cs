@@ -34,6 +34,7 @@ public class SimpleFSM : MonoBehaviour
 
     public int Health;
     protected GameObject[] PointList;
+    protected GameObject scoreKeeper;
 
     protected Transform playerTransform;
     protected float elapsedTime;
@@ -50,7 +51,7 @@ public class SimpleFSM : MonoBehaviour
     {
         currentState = FSMState.Patrol;
 
-       
+        scoreKeeper = GameObject.FindGameObjectWithTag("GameManager");
 
         elapsedTime = 0.0f;
 
@@ -99,7 +100,7 @@ public class SimpleFSM : MonoBehaviour
 
     }
 
-    private void FindNextPoint()
+     public void FindNextPoint()
     {
 
         int rndIndex = Random.Range(0, PointList.Length);
@@ -175,7 +176,7 @@ public class SimpleFSM : MonoBehaviour
     /// </summary>
     private void Explode()
     {
-        objPlayer.SendMessage("UpdateScore", scoreValue);
+        scoreKeeper.SendMessage("UpdateScore", scoreValue);
 
 
         Instantiate(Explosion, transform.position, transform.rotation);
@@ -289,8 +290,10 @@ public class SimpleFSM : MonoBehaviour
         if (other.tag == "Player")
 
         {
-            Health = 0;
             objPlayer.SendMessage("ApplyDamage", 20);
+
+            Instantiate(Explosion, transform.position, transform.rotation);
+            Destroy(gameObject);
         }
     }
 

@@ -26,14 +26,14 @@ public class EnemyManager : MonoBehaviour {
 
         // Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.
        
-            InvokeRepeating("Spawn", spawnTime, spawnTime); 
+            InvokeRepeating("Spawn", 0.0f , spawnTime); 
        
     }
 
 
     void Spawn()
     {
-        //ensure the player is active.
+        //ensure the player is active. stops waves if player is destroyed.
         if (playerObj.activeInHierarchy)
         {
             // If the player has no health left...

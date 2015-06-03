@@ -106,6 +106,7 @@
     <Compile Include="Assets\Scripts\EnvironmentDetails.cs" />
     <Compile Include="Assets\Scripts\ExplosionLife.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\HighScore.cs" />
     <Compile Include="Assets\Scripts\HoverMotor.cs" />
     <Compile Include="Assets\Scripts\JetEnemy.cs" />
     <Compile Include="Assets\Scripts\Laser.cs" />

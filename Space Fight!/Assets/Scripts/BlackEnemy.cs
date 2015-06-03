@@ -3,7 +3,9 @@ using System.Collections;
 
 public class BlackEnemy : SimpleFSM {
 
-
+    /// <summary>
+    /// overridden patrol state which allows enemy to 
+    ///</summary>
    public override void  UpdatePatrolState(){
 
         float dist = Vector3.Distance(transform.position, playerTransform.position);
@@ -44,7 +46,7 @@ public class BlackEnemy : SimpleFSM {
 
             //shoot at the player then find new patrol spot. 
             ShootBullet();
-
+            FindNextPoint();
             currentState = FSMState.Patrol;
             
         }

@@ -4,10 +4,10 @@ using System.Collections;
 public class BulletLife : MonoBehaviour
 {
 
-    public float bulletSpeed = 10f;
-    public float lifeTime = 2.0f;
-    private float startTime;
-    private float checkTime;
+    public float bulletSpeed = 10f;//rate bullet travels
+    public float lifeTime = 2.0f;//amount of time bullet will stay active
+    private float startTime; //time bullet was started.
+    private float checkTime;//time to check against the start time.
 
     // Use this for initialization
     void Start () {
