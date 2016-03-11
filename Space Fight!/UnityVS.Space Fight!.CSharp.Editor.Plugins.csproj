@@ -16,7 +16,7 @@
     <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>EditorPlugins:7</UnityProjectType>
-    <UnityBuildTarget>WebPlayerStreamed:7</UnityBuildTarget>
+    <UnityBuildTarget>WebPlayer:6</UnityBuildTarget>
     <UnityVersion>5.0.1f1</UnityVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

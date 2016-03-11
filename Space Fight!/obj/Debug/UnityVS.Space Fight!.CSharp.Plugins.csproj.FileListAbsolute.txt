@@ -13,14 +13,8 @@ C:\Users\Jonathan\Documents\Roguelike\unitybits\Space Fight!\obj\Debug\Assembly-
 C:\Users\Jonathan\Documents\Roguelike\unitybits\Space Fight!\obj\Debug\Assembly-CSharp-firstpass.pdb
 C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
-C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\UnityEditor.dll
-C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\UnityEngine.dll
-C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
 C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\UnityEngine.xml
-C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\UnityEditor.xml
-C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
-C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
 C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\obj\Debug\UnityVS.Space Fight!.CSharp.Plugins.csprojResolveAssemblyReference.cache
 C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Jonathan\Google Drive\workterm\unitybits\Space Fight!\obj\Debug\Assembly-CSharp-firstpass.pdb
