@@ -15,5 +15,7 @@ public class PlayerController : MonoBehaviour {
         var move = speed * Time.deltaTime;
         var ver = Input.GetAxis("Vertical");
         var hor = Input.GetAxis("Horizontal");
+
+        transform.GetComponent<Rigidbody2D>().AddForce(Vector3.right * hor * speed);
     }
 }
