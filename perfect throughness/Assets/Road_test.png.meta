@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: 3a6dfdb06e9e17441a839489c8430724
+timeCreated: 1460047414
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Road_test_0
+    21300002: Road_test_1
+    21300004: Road_test_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Road_test_0
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 2371
+        width: 696
+        height: 1010
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 10}
+      outline:
+      - - {x: -176.23753, y: 256.69128}
+        - {x: -176.23753, y: -255.30872}
+        - {x: 176.76247, y: -255.30872}
+        - {x: 176.76247, y: 256.69128}
+    - name: Road_test_1
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1635
+        width: 692
+        height: 1331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -175.05786, y: 337.28607}
+        - {x: -175.05786, y: -336.71393}
+        - {x: 176.94214, y: -336.71393}
+        - {x: 176.94214, y: 337.28607}
+    - name: Road_test_2
+      rect:
+        serializedVersion: 2
+        x: 2686
+        y: 2200
+        width: 702
+        height: 1330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -177.92322, y: 337.16785}
+        - {x: -177.92322, y: -336.83215}
+        - {x: 178.07678, y: -336.83215}
+        - {x: 178.07678, y: 337.16785}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
